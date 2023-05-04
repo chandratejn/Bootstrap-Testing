@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    border:0;
+}
+.container_m{
+    display: flexbox;
+    margin:20px;
+}
+a{
+    text-decoration: none;
+}
+.nav-item>a{
+    color:blue;
+}
+.nav-item>a:active{
+    color:darkgray;
+}
+@media screen and (min-width: 768px) and (max-width: 10000px) {
+    .navbar-brand{
+        display: none;
+    }
+}
